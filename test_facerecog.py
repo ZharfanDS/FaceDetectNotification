@@ -12,7 +12,7 @@ bot = telegram.Bot(token=BOT_TOKEN)
 
 # Menentukan path dataset secara dinamis
 script_dir = os.path.dirname(os.path.abspath(__file__))
-dataset_path = os.path.join(script_dir, "dataset")
+dataset_path = os.path.join(script_dir, "dataset") # dataset or try facedetection/dataset
 
 # Membaca dataset wajah dan encoding
 known_face_encodings = []
