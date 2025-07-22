@@ -17,7 +17,7 @@ recognizer = cv2.face.LBPHFaceRecognizer_create()
 
 # Menentukan path dataset secara dinamis
 script_dir = os.path.dirname(os.path.abspath(__file__))
-dataset_path = os.path.join(script_dir, "dataset")
+dataset_path = os.path.join(script_dir, "dataset") # dataset or try facedetection/dataset
 
 people = os.listdir(dataset_path)  # Daftar orang yang dilatih
 faces, labels = [], []
